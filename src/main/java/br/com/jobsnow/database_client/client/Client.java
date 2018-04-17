@@ -358,6 +358,6 @@ public class Client {
 			throw new RuntimeException("", e);
 		}
 		
-		throw new RuntimeException("Falha ao fazer a requisiÃ§Ã£o, HTTP error code: " + this.response.getStatusLine().getStatusCode() + ", motivo do erro: "+retorno.get("message"));
+		throw new RuntimeException("Falha ao fazer a requisição, HTTP error code: " + this.response.getStatusLine().getStatusCode() + ", motivo do erro: "+retorno.get("message"));
 	}
 }
